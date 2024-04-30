@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: Poppins; */
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 85vh;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_small.jpg");
+    background-size: cover;
+    background-position: top right;
+    opacity: 0.38;
+}
+
+.box {
+    width: 100vw;
+    height: 85vh;
+    background-color: black;
+}
+
+nav {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
+    /* border: 2px solid green; */
+    height: 7vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    /* Adjust z-index to be on top of other elements */
+    color: white;
+
+}
+
+nav span {
+    padding: 25px 150px;
+    letter-spacing: 4px;
+    font-size: 42px;
+    color: red;
+    position: relative;
+    top: 12px;
+    right: 150px;
+    z-index: 10;
+    font-weight: bolder;
+    font-family: Bebas Neue;
+}
+
+.english {
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    z-index: 2;
+    padding: 3px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.signin {
+    font-family: Poppins;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    padding: 2px 12px;
+    border: white;
+    border-radius: 5px;
+}
+
+.box2 {
+    position: absolute;
+    top: 40vh;
+    left: 30vw;
+}
+
+/* .box2 p {
+    color: white;
+    padding: 23px;
+} */
+
+.text1 {
+    font-size: 34px;
+    font-weight: 900;
+    position: relative;
+    right: 100px;
+    bottom: 20px;
+    color: white;
+    z-index: 2;
+    font-family: Poppins;
+}
+
+.text2 {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+    z-index: 2;
+    font-family: Poppins;
+    /* font-weight: bold; */
+}
+
+.text3 {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    right: 45px;
+    z-index: 2;
+    font-family: Poppins;
+    /* font-weight: bold; */
+}
+
+.placeholder {
+    font-size: 24px;
+    padding: 3px 10px;
+    opacity: 0.69;
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 30px;
+    top: 10px;
+    z-index: 2;
+    font-family: Poppins;
+    border: 1px solid white;
+}
+
+.getstarted {
+    background-color: red;
+    color: white;
+    padding-left: 8px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: relative;
+    right: 26px;
+    top: 10px;
+    border-radius: 5px;
+    bottom: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Poppins;
+    border: black;
+}
+
+/* .line{
+    width: 100%;
+    height: 11px;
+    border: red;
+} */
+.tv {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    z-index: 10;
+    bottom: 60px;
+    left: 600px;
+}
+
+.tv video {
+    width: 325px;
+    position: relative;
+    bottom: 270px;
+    left: 60px;
+}
+
+.mssg1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 1200;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+    font-family: Poppins;
+
+}
+
+.mssg2 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 170px;
+    left: 148px;
+}
+
+.mssg3 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 170px;
+    left: 148px;
+}
+
+.container3 {
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.photo {
+    position: relative;
+    left: 100px;
+}
+
+.blackbox {
+    width: 240px;
+    height: 75px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    right: 230px;
+    top: 110px;
+    padding: 5px 10px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.blackbox span {
+    position: relative;
+    bottom: 26px;
+    left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.blackbox p {
+    position: relative;
+    bottom: 26px;
+    left: 55px;
+    font-size: 12px;
+    color: rgb(73, 173, 245);
+
+}
+
+.data span {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    right: 70px;
+    bottom: 20px;
+}
+
+.data p {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    right: 70px;
+}
+
+.television img {
+    position: relative;
+    left: 600px;
+    bottom: 50px;
+}
+
+.txt1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 1200;
+    position: relative;
+    top: 120px;
+    left: 120px;
+    font-family: Poppins;
+}
+
+.txt2 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 120px;
+    left: 120px;
+
+}
+
+.txt3 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 120px;
+    left: 120px;
+}
+
+.television img {
+    position: relative;
+    z-index: 10;
+}
+
+.vedio2 {
+    width: 260px;
+    position: relative;
+    bottom: 175px;
+    left: 260px;
+
+}
+
+.container5 {
+    width: 100vw;
+}
+
+.tt1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+}
+
+.tt2 {
+    color: white;
+    font-size: 21px;
+    position: relative;
+    left: 605px;
+    bottom: 240px;
+}
+
+.tt3 {
+    color: white;
+    font-size: 21px;
+    position: relative;
+    left: 605px;
+    bottom: 240px;
+}
+
+.tt4 {
+    color: white;
+    font-size: 21px;
+    position: relative;
+    left: 605px;
+    bottom: 240px;
+}
+
+.feq {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.fq {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    bottom: 50px;
+}
+
+.ques {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes {
+    width: 70vw;
+    height: 60px;
+    display: flex;
+    color: white;
+    align-items: center;
+    transition: all 0.7s ease-out;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: rgb(55, 51, 51);
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.boxes:hover {
+    background-color: rgb(157, 151, 151);
+}
+
+.ques p {
+    position: relative;
+    left: 50px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.same {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    /* left: 370px; */
+}
+
+.list1 {
+    position: relative;
+    top: 100px;
+    left: 70px;
+    color: white;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.list2 {
+    position: relative;
+    left: 380px;
+    bottom: 125px;
+    color: white;
+    line-height: 45px;
+    list-style-type: none;
+}
+.list3 {
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+    color: white;
+    line-height: 45px;
+    list-style-type: none;
+}
+.list4{
+    position: relative;
+    left: 800px;
+    bottom: 435px;
+    color: white;
+    line-height: 45px;
+    list-style-type: none;
+    
+}
+.footer a{
+    color: rgb(206, 206, 206);
+}
+.footer2 a{
+    color: rgb(206, 206, 206);
+}
